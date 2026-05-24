@@ -1,7 +1,23 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-21T00:00:00Z",
+  "updatedAt": "2026-05-24T08:32:40.986Z",
   "airdrops": [
+    {
+      "id": "kamino-kmno-s2",
+      "name": "Kamino KMNO — Season 2",
+      "protocol": "kamino",
+      "status": "live",
+      "claimUrl": "https://app.kamino.finance/airdrop",
+      "description": "Borrow/lend points convert to KMNO. Claim window closes mid-cycle."
+    },
+    {
+      "id": "sanctum-cloud-s1",
+      "name": "Sanctum CLOUD — Wonderland",
+      "protocol": "sanctum",
+      "status": "live",
+      "claimUrl": "https://app.sanctum.so/wonderland",
+      "description": "Hold any Sanctum LST or LP token. Pet evolution drives airdrop multipliers."
+    },
     {
       "id": "jupiter-jup-s3",
       "name": "Jupiter JUP — Season 3",
@@ -10,14 +26,6 @@
       "claimOpensAt": "2026-05-28T00:00:00Z",
       "claimUrl": "https://jup.ag/airdrop",
       "description": "Trade volume + Jup Lend usage snapshot. Allocation tiers based on lifetime swap activity."
-    },
-    {
-      "id": "kamino-kmno-s2",
-      "name": "Kamino KMNO — Season 2",
-      "protocol": "kamino",
-      "status": "live",
-      "claimUrl": "https://app.kamino.finance/airdrop",
-      "description": "Borrow/lend points convert to KMNO. Claim window closes mid-cycle."
     },
     {
       "id": "drift-drift-s4",
@@ -29,6 +37,101 @@
       "description": "Perp volume + maker rebates. Bonus multipliers for early users."
     },
     {
+      "id": "awesome-marginfi",
+      "name": "MarginFi",
+      "protocol": "marginfi",
+      "status": "upcoming",
+      "claimUrl": "https://github.com/defilogist/awesome-solana-airdrops/blob/main/guides/marginfi.md",
+      "description": "Lending / Borrowing airdrop tracked by the awesome-solana-airdrops list."
+    },
+    {
+      "id": "awesome-rainfi",
+      "name": "RainFi",
+      "protocol": "rainfi",
+      "status": "upcoming",
+      "claimUrl": "https://github.com/defilogist/awesome-solana-airdrops/blob/main/guides/rainfi.md",
+      "description": "Lending / Borrowing airdrop tracked by the awesome-solana-airdrops list."
+    },
+    {
+      "id": "awesome-kamino-season-3",
+      "name": "Kamino - Season 3",
+      "protocol": "kamino",
+      "status": "upcoming",
+      "claimUrl": "https://github.com/defilogist/awesome-solana-airdrops/blob/main/guides/kamino.md",
+      "description": "Lending / Borrowing airdrop tracked by the awesome-solana-airdrops list."
+    },
+    {
+      "id": "awesome-texturefi",
+      "name": "TextureFi",
+      "protocol": "texturefi",
+      "status": "upcoming",
+      "claimUrl": "https://twitter.com/texture_fi",
+      "description": "Lending / Borrowing airdrop tracked by the awesome-solana-airdrops list."
+    },
+    {
+      "id": "awesome-meteora",
+      "name": "Meteora",
+      "protocol": "meteora",
+      "status": "upcoming",
+      "claimUrl": "https://github.com/defilogist/awesome-solana-airdrops/blob/main/guides/meteora.md",
+      "description": "Liquidity Providing / Staking airdrop tracked by the awesome-solana-airdrops list."
+    },
+    {
+      "id": "awesome-parcl-season-3",
+      "name": "Parcl - Season 3",
+      "protocol": "parcl",
+      "status": "upcoming",
+      "claimUrl": "https://github.com/defilogist/awesome-solana-airdrops/blob/main/guides/parcl.md",
+      "description": "Liquidity Providing / Staking airdrop tracked by the awesome-solana-airdrops list."
+    },
+    {
+      "id": "awesome-phoenix",
+      "name": "Phoenix",
+      "protocol": "phoenix",
+      "status": "upcoming",
+      "claimUrl": "https://github.com/defilogist/awesome-solana-airdrops/blob/main/guides/phoenix.md",
+      "description": "Trading airdrop tracked by the awesome-solana-airdrops list."
+    },
+    {
+      "id": "awesome-symmetry",
+      "name": "Symmetry",
+      "protocol": "symmetry",
+      "status": "upcoming",
+      "claimUrl": "https://app.symmetry.fi/leaderboard",
+      "description": "Trading airdrop tracked by the awesome-solana-airdrops list."
+    },
+    {
+      "id": "awesome-magiceden-season-2",
+      "name": "MagicEden - Season 2",
+      "protocol": "magiceden",
+      "status": "upcoming",
+      "claimUrl": "https://github.com/defilogist/awesome-solana-airdrops/blob/main/guides/magiceden.md",
+      "description": "NFT Trading airdrop tracked by the awesome-solana-airdrops list."
+    },
+    {
+      "id": "awesome-flash-trade",
+      "name": "Flash Trade",
+      "protocol": "flash-trade",
+      "status": "upcoming",
+      "description": "Leveraged Trading airdrop tracked by the awesome-solana-airdrops list."
+    },
+    {
+      "id": "awesome-dscvr",
+      "name": "DSCVR",
+      "protocol": "dscvr",
+      "status": "upcoming",
+      "claimUrl": "https://dscvr.one/",
+      "description": "Social airdrop tracked by the awesome-solana-airdrops list."
+    },
+    {
+      "id": "awesome-bonkmas-season-2",
+      "name": "Bonkmas - Season 2",
+      "protocol": "bonkmas",
+      "status": "upcoming",
+      "claimUrl": "https://github.com/defilogist/awesome-solana-airdrops/blob/main/guides/bonkmas2.md",
+      "description": "Meme airdrop tracked by the awesome-solana-airdrops list."
+    },
+    {
       "id": "marginfi-mfi-s1",
       "name": "MarginFi MFI — Genesis",
       "protocol": "marginfi",
@@ -37,12 +140,190 @@
       "description": "Original points -> MFI conversion. Claim window closed."
     },
     {
-      "id": "sanctum-cloud-s1",
-      "name": "Sanctum CLOUD — Wonderland",
+      "id": "awesome-pyth",
+      "name": "Pyth",
+      "protocol": "pyth",
+      "status": "ended",
+      "claimUrl": "https://pyth.network/",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-jito",
+      "name": "JITO",
+      "protocol": "jito",
+      "status": "ended",
+      "claimUrl": "https://www.jito.wtf/",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-racket",
+      "name": "Racket",
+      "protocol": "racket",
+      "status": "ended",
+      "claimUrl": "https://racket.wtf/",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-bonkmas",
+      "name": "Bonkmas",
+      "protocol": "bonkmas",
+      "status": "ended",
+      "claimUrl": "https://bonkmas.com/",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-bozocoin",
+      "name": "BozoCoin",
+      "protocol": "bozocoin",
+      "status": "ended",
+      "claimUrl": "https://bozocoin.app/",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-prntr",
+      "name": "PRNTR",
+      "protocol": "prntr",
+      "status": "ended",
+      "claimUrl": "https://twitter.com/printonsol/status/1742681941332079092",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-jupiter",
+      "name": "Jupiter",
+      "protocol": "jupiter",
+      "status": "ended",
+      "claimUrl": "https://github.com/defilogist/awesome-solana-airdrops/blob/main/guides/jupiter.md",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-dymension",
+      "name": "Dymension",
+      "protocol": "dymension",
+      "status": "ended",
+      "claimUrl": "https://twitter.com/dymension/status/1742185621299265738",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-zkverse",
+      "name": "Zkverse",
+      "protocol": "zkverse",
+      "status": "ended",
+      "claimUrl": "https://rewards.zkverse.gg/",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-banx",
+      "name": "Banx",
+      "protocol": "banx",
+      "status": "ended",
+      "claimUrl": "https://github.com/defilogist/awesome-solana-airdrops/blob/main/guides/banx.md",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-kamino-season-1",
+      "name": "Kamino - Season 1",
+      "protocol": "kamino",
+      "status": "ended",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-tensor-season-1",
+      "name": "Tensor - Season 1",
+      "protocol": "tensor",
+      "status": "ended",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-parcl-season-1",
+      "name": "Parcl - Season 1",
+      "protocol": "parcl",
+      "status": "ended",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-sharky-fi",
+      "name": "Sharky.fi",
+      "protocol": "sharky-fi",
+      "status": "ended",
+      "claimUrl": "https://twitter.com/SharkyFi/status/1757088923098984894",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-sanctum",
+      "name": "Sanctum",
       "protocol": "sanctum",
-      "status": "live",
-      "claimUrl": "https://app.sanctum.so/wonderland",
-      "description": "Hold any Sanctum LST or LP token. Pet evolution drives airdrop multipliers."
+      "status": "ended",
+      "claimUrl": "https://github.com/defilogist/awesome-solana-airdrops/blob/main/guides/sanctum.md",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-drift",
+      "name": "Drift",
+      "protocol": "drift",
+      "status": "ended",
+      "claimUrl": "https://github.com/defilogist/awesome-solana-airdrops/blob/main/guides/drift.md",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-zeta",
+      "name": "Zeta",
+      "protocol": "zeta",
+      "status": "ended",
+      "claimUrl": "https://github.com/defilogist/awesome-solana-airdrops/blob/main/guides/zeta.md",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-bitbrawl",
+      "name": "BitBrawl",
+      "protocol": "bitbrawl",
+      "status": "ended",
+      "claimUrl": "https://airdrop.bitbrawl.io/",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-exchangeart",
+      "name": "ExchangeArt",
+      "protocol": "exchangeart",
+      "status": "ended",
+      "claimUrl": "https://github.com/defilogist/awesome-solana-airdrops/blob/main/guides/exchangeart.md",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-nxfinance",
+      "name": "NXFinance",
+      "protocol": "nxfinance",
+      "status": "ended",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-magic-eden-season-1",
+      "name": "Magic Eden - Season 1",
+      "protocol": "magic-eden",
+      "status": "ended",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-jupiter-season-2",
+      "name": "Jupiter - Season 2",
+      "protocol": "jupiter",
+      "status": "ended",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-dflow",
+      "name": "DFlow",
+      "protocol": "dflow",
+      "status": "ended",
+      "claimUrl": "https://github.com/defilogist/awesome-solana-airdrops/blob/main/guides/dflow.md",
+      "description": "(no description provided)"
+    },
+    {
+      "id": "awesome-tensor-season-4",
+      "name": "Tensor - Season 4",
+      "protocol": "tensor",
+      "status": "ended",
+      "claimUrl": "https://github.com/defilogist/awesome-solana-airdrops/blob/main/guides/tensor.md",
+      "description": "(no description provided)"
     }
   ]
 }
