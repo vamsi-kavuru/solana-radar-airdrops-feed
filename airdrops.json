@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-21T00:00:00Z",
+  "airdrops": [
+    {
+      "id": "jupiter-jup-s3",
+      "name": "Jupiter JUP — Season 3",
+      "protocol": "jupiter",
+      "status": "upcoming",
+      "claimOpensAt": "2026-05-28T00:00:00Z",
+      "claimUrl": "https://jup.ag/airdrop",
+      "description": "Trade volume + Jup Lend usage snapshot. Allocation tiers based on lifetime swap activity."
+    },
+    {
+      "id": "kamino-kmno-s2",
+      "name": "Kamino KMNO — Season 2",
+      "protocol": "kamino",
+      "status": "live",
+      "claimUrl": "https://app.kamino.finance/airdrop",
+      "description": "Borrow/lend points convert to KMNO. Claim window closes mid-cycle."
+    },
+    {
+      "id": "drift-drift-s4",
+      "name": "Drift DRIFT — Season 4",
+      "protocol": "drift",
+      "status": "upcoming",
+      "claimOpensAt": "2026-06-04T00:00:00Z",
+      "claimUrl": "https://app.drift.trade/earn/airdrop",
+      "description": "Perp volume + maker rebates. Bonus multipliers for early users."
+    },
+    {
+      "id": "marginfi-mfi-s1",
+      "name": "MarginFi MFI — Genesis",
+      "protocol": "marginfi",
+      "status": "ended",
+      "claimUrl": "https://app.marginfi.com",
+      "description": "Original points -> MFI conversion. Claim window closed."
+    },
+    {
+      "id": "sanctum-cloud-s1",
+      "name": "Sanctum CLOUD — Wonderland",
+      "protocol": "sanctum",
+      "status": "live",
+      "claimUrl": "https://app.sanctum.so/wonderland",
+      "description": "Hold any Sanctum LST or LP token. Pet evolution drives airdrop multipliers."
+    }
+  ]
+}
