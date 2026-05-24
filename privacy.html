@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0a0a0f" />
+  <title>Radar — Privacy Policy</title>
+  <style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #13131a;
+    --border: #2a2a36;
+    --text: #f4f4f7;
+    --text-secondary: #a8a8b8;
+    --text-muted: #6c6c80;
+    --accent: #8b5cf6;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  body { padding: 32px 20px 64px; }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 32px 28px;
+  }
+  h1, h2, h3 {
+    color: var(--text);
+    letter-spacing: -0.01em;
+    margin-top: 1.8em;
+    margin-bottom: 0.5em;
+  }
+  h1 { margin-top: 0; font-size: 2rem; }
+  h2 { font-size: 1.4rem; border-bottom: 1px solid var(--border); padding-bottom: 0.3em; }
+  h3 { font-size: 1.1rem; color: var(--text-secondary); }
+  p, li { color: var(--text-secondary); }
+  strong { color: var(--text); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  code {
+    background: rgba(139, 92, 246, 0.15);
+    color: var(--accent);
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    font-size: 0.95em;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  th { color: var(--text); }
+  blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 1em 0;
+    padding: 0.4em 1em;
+    color: var(--text-muted);
+  }
+  hr { border: 0; border-top: 1px solid var(--border); margin: 2em 0; }
+  footer {
+    max-width: 720px;
+    margin: 24px auto 0;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    text-align: center;
+  }
+  footer a { color: var(--text-muted); }
+</style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy — Radar</h1>
+<p><em>Last updated: 2026-05-24</em></p>
+<p>Radar is a Solana portfolio and airdrop tracker for mobile devices. This
+policy explains what data Radar handles and how.</p>
+<h2>Summary</h2>
+<ul>
+<li>Radar does <strong>not</strong> maintain a backend server that collects, stores, or
+syncs your data.</li>
+<li>Wallet addresses you add are stored <strong>locally on your device</strong> (encrypted
+MMKV storage) and are never uploaded to any server we operate.</li>
+<li>The app <strong>does</strong> make outbound network requests to public third-party
+services (Helius, Jupiter, GitHub Pages) to fetch on-chain data, token
+prices, and the airdrop catalog. These requests include public Solana
+addresses you&#39;ve chosen to track — the same information that&#39;s already
+public on the blockchain.</li>
+</ul>
+<h2>What Radar collects</h2>
+<p><strong>On your device only:</strong></p>
+<ul>
+<li>Wallet addresses you add (entered manually or connected via Mobile Wallet
+Adapter).</li>
+<li>Airdrop subscription preferences (which airdrops you&#39;ve toggled &quot;Notify
+me&quot; on).</li>
+<li>Local notification scheduling state.</li>
+</ul>
+<p>This data lives in MMKV storage on your device. It is never transmitted to
+servers we operate. Uninstalling the app deletes all of it.</p>
+<h2>What Radar sends to third-party services</h2>
+<p>To compute your portfolio, Radar&#39;s app makes direct API requests from your
+device to:</p>
+<table>
+<thead>
+<tr>
+<th>Service</th>
+<th>What&#39;s sent</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Helius (helius.xyz)</td>
+<td>Wallet addresses (public Solana addresses)</td>
+<td>Token balances, native SOL balance, transaction history</td>
+</tr>
+<tr>
+<td>GitHub Pages (vamsi-kavuru.github.io)</td>
+<td>None (read-only catalog fetch)</td>
+<td>Airdrop catalog refresh</td>
+</tr>
+<tr>
+<td>Jupiter Worker (worker.jup.ag)</td>
+<td>Wallet addresses</td>
+<td>Airdrop eligibility checks</td>
+</tr>
+</tbody></table>
+<p>We do not have visibility into your usage of these services beyond what
+their own privacy policies describe. The addresses sent are already public
+on Solana&#39;s blockchain.</p>
+<h2>What Radar does NOT do</h2>
+<ul>
+<li>No account creation, sign-up, or login to Radar itself.</li>
+<li>No analytics, crash reporters, advertising SDKs, or fingerprinting
+trackers.</li>
+<li>No selling, sharing, or monetization of your data.</li>
+<li>No collection of personally identifiable information (name, email, phone,
+device ID, location).</li>
+</ul>
+<h2>Permissions Radar requests</h2>
+<ul>
+<li><strong>Internet</strong> — required to fetch on-chain data and the airdrop catalog.</li>
+<li><strong>Post notifications</strong> — required to send the local reminders you opt
+into for upcoming airdrops. You can revoke this at any time in your
+device settings; the rest of the app continues to work.</li>
+</ul>
+<h2>Children</h2>
+<p>Radar is not directed at children under 13 and does not knowingly collect
+data from them. If you believe a child has used the app, uninstalling it
+removes all locally-stored data.</p>
+<h2>Changes to this policy</h2>
+<p>We will update this document if Radar&#39;s data handling changes (for example,
+if a future version introduces a backend service). Material changes will be
+called out in the app&#39;s release notes.</p>
+<h2>Contact</h2>
+<p>Questions or concerns? Open an issue at
+<a href="https://github.com/vamsi-kavuru/solana-radar-airdrops-feed">https://github.com/vamsi-kavuru/solana-radar-airdrops-feed</a>
+or contact the publisher via the listing on the Solana dApp Store.</p>
+
+  </main>
+  <footer>
+    Radar — built for the Solana dApp Store. ·
+    <a href="https://github.com/vamsi-kavuru/solana-radar-airdrops-feed">Source &amp; feed</a>
+  </footer>
+</body>
+</html>
